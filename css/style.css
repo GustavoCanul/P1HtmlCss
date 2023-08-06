@@ -49,9 +49,19 @@ main{
 .products{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem   ;
+    gap: 1rem;
 }
 .product .product-image{
     max-width: 100%;
     border-radius: 1rem;
+}
+.product .product-details{
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: var(--color-words);
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
