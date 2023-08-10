@@ -34,10 +34,21 @@ aside{
     position: sticky;
     top: 0;
     height: 100vh;
-    box-sizing: border-box;
-
-                                                                                                                                                                                                                                        
+    box-sizing: border-box;                                                                                                                                                                                                                     
 }
+
+.button-nav{
+    background-color: transparent;
+    border: 0;
+    color: var(--color-words);
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: .85rem;
+    width: 100%;
+}
+
 main{
     background-color: var(--color-products);
     margin: 1rem;
